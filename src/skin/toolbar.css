@@ -20,7 +20,20 @@
   #aus-hello-button {
     list-style-image: url("chrome://aus-hello/skin/icon16.png");
   }
-
+  
+  #aus-hello-button[cui-areatype="toolbar"]:before {
+	background-color: #02395E;
+	color: #fff;
+	content: '10';
+	font-weight: bold;
+	position: absolute;
+	padding: 0px 2px 0px 3px;
+	margin: 0;
+	border-radius: 3px;
+	text-align: center;
+	transform: translate(-.5em, .25em);
+  }
+  
   #aus-hello-button[cui-areatype="menu-panel"],
   toolbarpaletteitem[place="palette"] > #aus-hello-button {
     list-style-image: url("chrome://aus-hello/skin/icon32.png");
