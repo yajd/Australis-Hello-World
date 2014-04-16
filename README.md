@@ -1,4 +1,4 @@
-Australis-Hello-World
+Australis-Hello-World-with-Badge
 =====================
 
-This is a bare bones "Hello World" add-on demo for the Australis theme in Firefox. More details can be found in this blog post: https://blog.mozilla.org/addons/2014/03/06/australis-for-add-on-developers-2/.
+This is a forked addon from jvillalobos which shows how to put a badge on a toolbarbutton when it is in the the nav bar (meaning when area is equal to `CustomizableUI.AREA_NAVBAR`)
